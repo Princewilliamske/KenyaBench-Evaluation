@@ -1,0 +1,169 @@
+|        Tasks         |Version|     Filter     |n-shot|Metric|   |Value |   |Stderr|
+|----------------------|------:|----------------|-----:|------|---|-----:|---|------|
+|masakhaner_sw_prompt_1|      1|flexible-extract|     0|f1    |↑  |0.0013|±  |   N/A|
+
+|        Tasks         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|-----:|---|------|
+|afrisenti_swa_prompt_1|      1|none  |     0|acc   |↑  |0.5936|±  | 0.018|
+|                      |       |none  |     0|f1    |↑  |0.4469|±  |   N/A|
+
+|        Tasks        |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|---------------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|belebele_luo_prompt_1|      1|none  |     0|acc     |↑  |0.2289|±  | 0.014|
+|                     |       |none  |     0|acc_norm|↑  |0.2289|±  | 0.014|
+
+|        Tasks        |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|---------------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|belebele_som_prompt_1|      1|none  |     0|acc     |↑  |0.2289|±  | 0.014|
+|                     |       |none  |     0|acc_norm|↑  |0.2289|±  | 0.014|
+
+|        Tasks        |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|---------------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|belebele_swa_prompt_1|      1|none  |     0|acc     |↑  |0.2289|±  | 0.014|
+|                     |       |none  |     0|acc_norm|↑  |0.2289|±  | 0.014|
+
+|        Tasks        |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|---------------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|belebele_swa_prompt_1|      1|none  |     5|acc     |↑  |0.2578|±  |0.0146|
+|                     |       |none  |     5|acc_norm|↑  |0.2578|±  |0.0146|
+
+|      Tasks      |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|-----------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|belebele_luo_Latn|      0|none  |     0|acc     |↑  |0.2522|±  |0.0145|
+|                 |       |none  |     0|acc_norm|↑  |0.2522|±  |0.0145|
+
+|      Tasks      |Version|Filter|n-shot| Metric |   |Value |   |Stderr|
+|-----------------|------:|------|-----:|--------|---|-----:|---|-----:|
+|belebele_luo_Latn|      0|none  |     5|acc     |↑  |0.2789|±  | 0.015|
+|                 |       |none  |     5|acc_norm|↑  |0.2789|±  | 0.015|
+
+
+
+|              Tasks              |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|flores_eng_Latn-luo_Latn_prompt_1|      1|none  |     0|bleu  |↑  |0.1285|±  |0.0218|
+|                                 |       |none  |     0|chrf  |↑  |8.1273|±  |0.1543|
+
+|              Tasks              |Version|Filter|n-shot|Metric|   | Value |   |Stderr|
+|---------------------------------|------:|------|-----:|------|---|------:|---|-----:|
+|flores_eng_Latn-luo_Latn_prompt_1|      1|none  |     5|bleu  |↑  | 0.1553|±  |0.0305|
+|                                 |       |none  |     5|chrf  |↑  |10.9362|±  |0.2034|
+
+|              Tasks              |Version|Filter|n-shot|Metric|   | Value |   |Stderr|
+|---------------------------------|------:|------|-----:|------|---|------:|---|-----:|
+|flores_luo_Latn-eng_Latn_prompt_1|      1|none  |     0|bleu  |↑  | 0.4226|±  |0.0363|
+|                                 |       |none  |     0|chrf  |↑  |13.4512|±  |0.1808|
+
+|              Tasks              |Version|Filter|n-shot|Metric|   | Value |   |Stderr|
+|---------------------------------|------:|------|-----:|------|---|------:|---|-----:|
+|flores_luo_Latn-eng_Latn_prompt_1|      1|none  |     5|bleu  |↑  | 0.3848|±  |0.0363|
+|                                 |       |none  |     5|chrf  |↑  |14.3242|±  |0.1522|
+
+|          Tasks           |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|--------------------------|------:|------|-----:|------|---|-----:|---|------|
+|injongointent_swa_prompt_1|      1|none  |     0|acc   |↑  |0.0250|±  |0.0062|
+|                          |       |none  |     0|f1    |↑  |0.0012|±  |   N/A|
+
+|          Tasks           |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|--------------------------|------:|------|-----:|------|---|-----:|---|------|
+|injongointent_swa_prompt_1|      1|none  |     5|acc   |↑  |0.0297|±  |0.0067|
+|                          |       |none  |     5|f1    |↑  |0.0186|±  |   N/A|
+
+|         Tasks         |Version|     Filter     |n-shot|Metric|   |Value|   |Stderr|
+|-----------------------|------:|----------------|-----:|------|---|----:|---|------|
+|masakhaner_luo_prompt_1|      1|flexible-extract|     0|f1    |↑  |    0|±  |   N/A|
+
+|        Tasks         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mafand_en-luo_prompt_1|      1|none  |     0|bleu  |↑  |0.3507|±  |0.0729|
+|                      |       |none  |     0|chrf  |↑  |6.5156|±  |0.2690|
+
+|        Tasks         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mafand_en-luo_prompt_1|      1|none  |     5|bleu  |↑  |0.2519|±  |0.0347|
+|                      |       |none  |     5|chrf  |↑  |8.9539|±  |0.1983|
+
+|        Tasks         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mafand_luo-en_prompt_1|      1|none  |     0|bleu  |↑  |0.0000|±  |0.0000|
+|                      |       |none  |     0|chrf  |↑  |0.1364|±  |0.0455|
+
+|        Tasks         |Version|Filter|n-shot|Metric|   | Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|------:|---|-----:|
+|mafand_luo-en_prompt_1|      1|none  |     5|bleu  |↑  | 1.7769|±  |0.2136|
+|                      |       |none  |     5|chrf  |↑  |18.9157|±  |0.2116|
+
+|        Tasks         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|mafand_swa-en_prompt_1|      1|none  |     0|bleu  |↑  |0.0000|±  |0.0000|
+|                      |       |none  |     0|chrf  |↑  |0.2647|±  |0.1022|
+
+|        Tasks         |Version|Filter|n-shot|Metric|   | Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|------:|---|-----:|
+|mafand_swa-en_prompt_1|      1|none  |     5|bleu  |↑  | 2.8688|±  |0.2586|
+|                      |       |none  |     5|chrf  |↑  |18.6426|±  |0.2358|
+
+|        Tasks         |Version|Filter|n-shot|Metric|   | Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|------:|---|-----:|
+|mafand_en-swa_prompt_1|      1|none  |     5|bleu  |↑  | 0.6704|±  |0.0841|
+|                      |       |none  |     5|chrf  |↑  |11.0193|±  |0.1809|
+
+|             Tasks              |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|--------------------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|ntrex_eng_Latn-swa_Latn_prompt_1|      1|none  |     0|bleu  |↑  |0.0000|±  |0.0000|
+|                                |       |none  |     0|chrf  |↑  |0.0176|±  |0.0113|
+
+|             Tasks              |Version|Filter|n-shot|Metric|   |Value|   |Stderr|
+|--------------------------------|------:|------|-----:|------|---|----:|---|-----:|
+|ntrex_swa_Latn-eng_Latn_prompt_1|      1|none  |     0|bleu  |↑  |    0|±  |     0|
+|                                |       |none  |     0|chrf  |↑  |    0|±  |     0|
+
+|        Tasks        |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|salt_eng-swa_prompt_1|      1|none  |     0|bleu  |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|chrf  |↑  |0.5938|±  |0.2064|
+
+|        Tasks        |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------|------:|------|-----:|------|---|-----:|---|-----:|
+|salt_swa-eng_prompt_1|      1|none  |     0|bleu  |↑  |0.0000|±  |0.0000|
+|                     |       |none  |     0|chrf  |↑  |0.0851|±  |0.0699|
+
+|     Tasks      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------|------:|------|-----:|------|---|-----:|---|------|
+|sib_kam_prompt_1|      1|none  |     0|acc   |↑  |0.2892|±  |0.0318|
+|                |       |none  |     0|f1    |↑  |0.1923|±  |   N/A|
+
+|     Tasks      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------|------:|------|-----:|------|---|-----:|---|------|
+|sib_kik_prompt_1|      1|none  |     0|acc   |↑  |0.2304|±  |0.0296|
+|                |       |none  |     0|f1    |↑  |0.1302|±  |   N/A|
+
+|     Tasks      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------|------:|------|-----:|------|---|-----:|---|------|
+|sib_luo_prompt_1|      1|none  |     0|acc   |↑  |0.2598|±  |0.0308|
+|                |       |none  |     0|f1    |↑  |0.1688|±  |   N/A|
+
+|     Tasks      |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------|------:|------|-----:|------|---|-----:|---|------|
+|sib_swa_prompt_1|      1|none  |     0|acc   |↑  |0.2500|±  |0.0304|
+|                |       |none  |     0|f1    |↑  |0.1625|±  |   N/A|
+
+|          Tasks           |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|--------------------------|------:|------|-----:|------|---|-----:|---|------|
+|uhura-arc-easy_sw_prompt_1|      1|none  |     5|acc   |↑  |0.2342|±  |0.0191|
+|                          |       |none  |     5|f1    |↑  |0.1577|±  |   N/A|
+
+|          Tasks           |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|--------------------------|------:|------|-----:|------|---|-----:|---|------|
+|uhura-arc-easy_sw_prompt_1|      1|none  |     0|acc   |↑  |0.2566|±  |0.0197|
+|                          |       |none  |     0|f1    |↑  |0.1432|±  |   N/A|
+
+|        Tasks         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|-----:|---|------|
+|xlsum_swahili_prompt_1|      1|none  |     5|rougeL|↑  |0.0288|±  |   N/A|
+
+|        Tasks         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|-----:|---|------|
+|xlsum_swahili_prompt_1|      1|none  |     0|rougeL|↑  |0.0002|±  |   N/A|
+
+
